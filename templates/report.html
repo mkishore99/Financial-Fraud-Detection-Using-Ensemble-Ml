@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fraud Detection Report</title>
+  </head>
+  <body>
+    <h2>Fraud Detection Summary</h2>
+
+    <p>Total Transactions: {{ total }}</p>
+    <p>Fraud Transactions: {{ fraud }}</p>
+    <p>Legitimate Transactions: {{ legit }}</p>
+    <p>Fraud Percentage: {{ fraud_percent }}%</p>
+
+    <h3>Visualization</h3>
+    <img src="{{ url_for('static', filename=chart) }}" width="400" />
+
+    <h3>Classification Report</h3>
+    <pre>{{ report }}</pre>
+
+    <br />
+    <a href="{{ url_for('download_report') }}">
+      <button>📄 Download PDF Report</button>
+    </a>
+
+    <br /><br />
+    <a href="{{ url_for('upload') }}">Upload Another Dataset</a>
+  </body>
+</html>
