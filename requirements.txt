@@ -22,7 +22,6 @@ certifi==2024.8.30
 cffi==1.17.1
 charset-normalizer==3.4.0
 click==8.1.7
-colorama==0.4.6
 comm==0.2.2
 contourpy==1.3.1
 cycler==0.12.1
@@ -104,14 +103,16 @@ nest-asyncio==1.6.0
 networkx==3.4.2
 notebook==7.3.0
 notebook_shim==0.2.4
-numpy==2.1.3
+numpy==1.26.4
+
 omegaconf==2.3.0
 opencv-python==4.12.0.88
 opt_einsum==3.4.0
 optree==0.17.0
 overrides==7.7.0
 packaging==24.2
-pandas==2.2.3
+pandas==2.2.2
+
 pandocfilters==1.5.1
 parso==0.8.4
 pillow==11.1.0
@@ -135,8 +136,8 @@ python-hydra==1.3.1
 python-json-logger==2.0.7
 pytorch-lightning==2.5.6
 pytz==2024.2
-pywin32==308
-pywinpty==2.0.14
+
+
 PyYAML==6.0.2
 pyzmq==26.2.0
 referencing==0.35.1
@@ -146,7 +147,8 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rich==14.1.0
 rpds-py==0.22.1
-scikit-learn==1.5.2
+scikit-learn==1.4.2
+
 scipy==1.14.1
 seaborn==0.13.2
 Send2Trash==1.8.3
